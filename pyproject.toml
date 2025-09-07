@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "module-1-part-2-using-github-workflows-mtr2130"
+version = "0.1.0"
+description = ""
+authors = ["mtr2130 <michaelreis91@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+polars = "^1.33.0"
+fastexcel = "^0.15.1"
+pyarrow = "^21.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
